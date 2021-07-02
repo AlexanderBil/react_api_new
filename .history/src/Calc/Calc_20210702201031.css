@@ -1,0 +1,92 @@
+input[type='number']{
+  max-width: 300px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 0px 0px 0px 10px;
+  margin: 0px 0px 20px 80px;
+}
+
+select{
+  width: 70px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 900px)
+
+
+.calc-res{
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 40px 0px 0px 20px;
+}
+
+.calc-res li{
+  margin: 0px 30px 0px 0px;
+  list-style: none;
+  font-size: 20px;
+}
+
+
+.calс{
+   background-color: silver;
+}
+
+.calk-title{
+  font-family: 'Montserrat';
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(117, 25, 25);
+  line-height: 40px;
+  letter-spacing: 1.5px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 10px 0px;
+  position: relative;
+}
+
+
+.calk-title::after{
+  content: '';
+  position: absolute;
+  width: 260px;
+  height: 1px;
+  background-color: #000;
+  bottom: 0;
+}
+
+.calc-change{
+display: flex;
+margin: 0px 0px 10px 0px;
+}
+
+.calc-change-block{
+   flex: 0 1 50%;
+}
+.calc-change-block p{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px 0px 0px 10px;
+}
+
+
+.btn-1{
+  font-size: 16px;
+  color: #000;
+  background-color:#bed1c4;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 4px;
+  display: block;
+  margin: 0px 0px 0px 160px;
+  font-family: 'Montserrat';
+}
+.btn-1:hover{
+  transition: all 0.3s;
+  background-color: rgb(117, 25, 25);
+  color: #fff;
+}

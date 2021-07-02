@@ -1,0 +1,1 @@
+http://api.exchangeratesapi.io/v1/latest?access_key=86f275c0f3b8ecb3f793b22859847c3a

@@ -1,0 +1,10 @@
+.error{
+  display: flex;
+  background-color: #f0ece9;
+  flex: 1 0 auto;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: 'Montserrat';
+  align-items: center;
+  justify-content: center;
+}
